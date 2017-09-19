@@ -1,0 +1,570 @@
+@charset "utf-8";
+/* CSS Document */
+
+/************
+1. 1600px
+************/
+
+@media only screen and (max-width: 1600px)
+{
+	.slider_overlay
+	{
+		top: 50%;
+		left: 75%;
+	}
+	.home_content
+	{
+		width: 50%;
+	}
+	.home_content h1
+	{
+		width: 80%;
+	}
+}
+
+@media only screen and (max-width: 1200px)
+{
+	#home
+	{
+		height: 75vh;
+	}
+	.slider_overlay
+	{
+		display: none;
+	}
+	.home_content
+	{
+		width: 75%;
+	}
+	#home::after
+	{
+		display: block;
+	}
+	.contact_text
+	{
+		padding-right: 30px;
+	}
+	.contact_form_container
+	{
+		padding-left: 0px;
+	}
+	.contact_text h1
+	{
+		font-size: 36px;
+	}
+}
+
+@media only screen and (max-width: 991px)
+{
+	.fs_menu_overlay
+	{
+		display: block;
+	}
+	.fs_menu_overlay.active
+	{
+		display: block;
+		width: 100%;
+		left: 0;
+	}
+	.fs_menu_left.active
+	{
+		width: 280px;
+	}
+	.home_nav
+	{
+		display: none;
+	}
+	.hamburger_container_outer
+	{
+		display: block;
+	}
+	#contact
+	{
+		padding-top: 120px;
+		padding-bottom: 120px;
+	}
+	.contact_text
+	{
+		padding-right: 0px;
+	}
+	.contact_form_container
+	{
+		margin-top: 40px;
+	}
+	.address
+	{
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: auto;
+		padding: 120px;
+	}
+	.address ul
+	{
+		position: relative;
+		-webkit-transform: none;
+		-moz-transform: none;
+		-ms-transform: none;
+		-o-transform: none;
+		transform: none;
+		top: auto;
+		left: auto;
+		text-align: center;
+	}
+	.contact_text p
+	{
+		font-size: 16px;
+	}
+	#contact_info_section
+	{
+		padding-top: 120px;
+		padding-bottom: 120px;
+	}
+}
+
+@media only screen and (max-width: 767px)
+{
+	p{font-size: 14px;}
+	h1{font-size: 36px;}
+	h2{font-size: 32px;}
+	h3{font-size: 24px;}
+	h4{font-size: 16px;}
+	h5{font-size: 16px;}
+	h6{font-size: 14px;}
+	.fs_menu_left.active
+	{
+		width: 140px;
+	}
+	.home_content
+	{
+		left: 30px;
+		width: 90%;
+	}
+	.reel_btn
+	{
+		margin-top: 32px;
+	}
+	.logo_container
+	{
+		left: 30px;
+	}
+	.fs_nav ul li a
+	{
+		font-weight: 900;
+		font-size: 32px;
+		line-height: 36px;
+		letter-spacing: 2px;
+	}
+	#contact
+	{
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+	.address
+	{
+		padding: 80px;
+	}
+	.address ul li:first-child
+	{
+		font-size: 12px;
+	}
+	.contact_form_container
+	{
+		margin-top: 30px;
+	}
+	.get_in_touch li span a
+	{
+		font-size: 16px;
+	}
+	.get_in_touch li span a::after
+	{
+		height: 1px;
+	}
+	.footer_social
+	{
+		top: -35px;
+	}
+	.footer_social ul li a
+	{
+		width: 70px;
+		height: 70px;
+		font-size: 32px;
+	}
+	.footer_content
+	{
+		padding-top: 200px;
+		margin-bottom: 30px;
+		margin-right: 5px;
+	}
+	.footer_logo_container .logo_container .logo
+	{
+		font-size: 24px;
+	}
+	.footer_logo_container .logo_container .logo_a
+	{
+		margin-bottom: 3px;
+	}
+	.footer_copy
+	{
+		width: 250px;
+		font-size: 12px;
+		font-weight: 300;
+		overflow: hidden;
+		margin-right: 20px;
+	}
+	.footer_copy div:first-child
+	{
+		margin-bottom: 12px;
+	}
+	.footer_copy div:first-child::after
+	{
+		top: 10px;
+		right: -43px;
+	}
+}
+
+@media only screen and (max-width: 690px)
+{
+	.home_content h1
+	{
+		font-size: 36px;
+	}
+}
+
+@media only screen and (max-width: 479px)
+{
+	p{font-size: 13px; line-height: 1.6;}
+	h1{font-size: 24px;}
+	h2{font-size: 24px;}
+	h3{font-size: 20px;}
+	h4{font-size: 16px;}
+	h5{font-size: 16px;}
+	h6{font-size: 14px;}
+	.fs_nav
+	{
+		position: absolute;
+		top: 70px;
+		right: -90px;
+	}
+	.fs_menu_left.active
+	{
+		width: 70px;
+	}
+	.fs_nav ul li a
+	{
+		font-weight: 900;
+		font-size: 24px;
+		line-height: 26px;
+		letter-spacing: 2px;
+	}
+	.fs_menu_social
+	{
+		top: 72px;
+	}
+	.fs_menu_social li
+	{
+		margin-bottom: 20px;
+	}
+	.fs_menu_social li a i
+	{
+		font-size: 18px;
+	}
+	.fs_menu_logo
+	{
+		bottom: 70px;
+		font-size: 13px;
+		font-weight: 700;
+		letter-spacing: 5px;
+	}
+	.fs_menu_right
+	{
+		width: 20px;
+	}
+	#home
+	{
+		height: 100vh;
+	}
+	.logo
+	{
+		font-size: 16px;
+		line-height: 16px;
+	}
+	.logo_a
+	{
+		letter-spacing: 8px;
+	}
+	.logo_b
+	{
+		letter-spacing: 12px;
+		color: #b22020;
+	}
+	.home_content
+	{
+		left: 0;
+		width: 100%;
+		padding-left: 15px;
+		padding-right: 30px;
+		margin-top: 0px;
+	}
+	.home_content h1
+	{
+		font-size: 22px;
+		width: 100%;
+	}
+	.home_content h4
+	{
+		width: 100%;
+		font-size: 13px;
+		font-weight: 400;
+		padding-right: 0px;
+		padding-left: 2px;
+		margin-top: 10px;
+		line-height: 1.7;
+	}
+	.button_line
+	{
+		margin-left: 10px;
+	}
+	.button_line a
+	{
+		font-size: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.button_line a i
+	{
+		font-size: 22px;
+		margin-bottom: 3px;
+		margin-left: 40px;
+	}
+	.button_line a:after
+	{
+		left: -10px;
+		bottom: 5px;
+		width: calc(100% + 12px);
+	}
+	.button_line a:before
+	{
+		top: 3px;
+		height: 33px;
+	}
+	.button_line a:hover::after
+	{
+		bottom: 6px;
+	}
+	.logo_container
+	{
+		left: 15px;
+	}
+	/* 480 hamburger */
+	.hamburger_container
+	{
+		right: 11px;
+		width: 30px;
+		height: 30px;
+	}
+	.hamburger
+	{
+		width: 100%;
+		height: 100%;
+		cursor: pointer;
+	}
+	.hamburger.active div:first-child
+	{
+		transform: translateY(5px) rotate(45deg);
+	}
+	.hamburger.active div:last-child
+	{
+		transform: translateY(-5px) rotate(-45deg);
+	}
+	.hamburger div
+	{
+		position: absolute;
+		left: 5px;
+		width: 20px;
+		height: 2px;
+		background: #313131;
+		-webkit-transition: all 200ms ease;
+		-moz-transition: all 200ms ease;
+		-ms-transition: all 200ms ease;
+		-o-transition: all 200ms ease;
+		transition: all 200ms ease;
+		transform-origin: center;
+	}
+	.hamburger div:first-child
+	{
+		top: 9px;
+	}
+	.hamburger div:last-child
+	{
+		bottom: 9px;
+	}
+	.button_line_4
+	{
+		margin-top: 0px;
+	}
+	.button_line_4 a:after
+	{
+		bottom: 6px;
+	}
+	.submit_btn
+	{
+		margin-left: 10px;
+		font-size: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.submit_btn i
+	{
+		font-size: 22px;
+		margin-bottom: 3px;
+		margin-left: 40px;
+	}
+	.submit_btn::after
+	{
+		left: -10px;
+		bottom: 5px;
+		width: calc(100% + 12px);
+	}
+	.submit_btn::before
+	{
+		top: 3px;
+		height: 33px;
+	}
+	.submit_btn:hover::after
+	{
+		bottom: 6px;
+	}
+	.contact_form_container
+	{
+		margin-top: 13px;
+	}
+	.contact_text h1
+	{
+		font-size: 24px;
+		line-height: 1.1;
+	}
+	.contact_text p:first-of-type
+	{
+		margin-top: 23px;
+	}
+	.contact_text p
+	{
+		margin-bottom: 13px;
+	}
+	#form_name,
+	#form_email
+	{
+		font-size: 13px;
+		padding-left: 0px;
+		border-radius: 0px;
+	}
+	#form_message
+	{
+		font-size: 13px;
+		height: 100px;
+		margin-top: 5px;
+		border: none;
+		border-bottom: solid 2px #00bcd5;
+		box-shadow: none;
+		border-radius: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	::-webkit-input-placeholder
+	{
+		font-size: 13px;
+	}
+	:-moz-placeholder /* older Firefox*/
+	{
+		font-size: 13px;
+	}
+	::-moz-placeholder /* Firefox 19+ */ 
+	{
+		font-size: 13px;
+	} 
+	:-ms-input-placeholder
+	{ 
+		font-size: 13px;
+	}
+	::input-placeholder
+	{
+		font-size: 13px;
+	}
+	input[type="email"], input[type="password"], input[type="text"]
+	{
+		height: 35px;
+	}
+	#contact_info_section
+	{
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+	.contact_text p
+	{
+		font-size: 13px;
+	}
+	.footer_social
+	{
+		top: -30px;
+	}
+	.footer_social ul li
+	{
+		margin-right: 8px;
+	}
+	.footer_social ul li:last-child
+	{
+		margin-right: 0px;
+	}
+	.footer_social ul li a
+	{
+		width: 60px;
+		height: 60px;
+		font-size: 24px;
+	}
+	.footer_logo_container .logo_container .logo
+	{
+		font-size: 20px;
+		line-height: 22px;
+	}
+	.footer_logo_container .logo_container .logo_a
+	{
+		margin-bottom: 0px;
+	}
+	.footer_logo_container .logo_container .logo_b
+	{
+		letter-spacing: 13px;
+	}
+	.footer_copy
+	{
+		width: 200px;
+		font-size: 10px;
+		font-weight: 300;
+		margin-right: 10px;
+	}
+	.footer_copy div:first-child
+	{
+		margin-bottom: 10px;
+	}
+	.footer_copy div:first-child::after
+	{
+		top: 6px;
+		right: -32px;
+		height: 1px;
+	}
+}
+
+@media only screen and (max-width: 400px)
+{
+	
+}
+
+@media only screen and (max-width: 390px)
+{
+	
+}
