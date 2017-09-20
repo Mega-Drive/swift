@@ -30,6 +30,7 @@ jQuery(document).ready(function($)
 	initLettering();
 	initVideo();
 	initGallery();
+	initTimer();
 	initGoogleMap();
 	initContact();
 	initScrolling();
@@ -461,6 +462,82 @@ jQuery(document).ready(function($)
 			}
 		});
 	}
+
+	function initTimer()
+    {
+    	// Uncomment line below and replace date
+    	// var target_date = new Date("Dec 7, 2017").getTime();
+
+    	// comment lines below
+    	var date = new Date();
+    	date.setDate(date.getDate() + 30);
+    	var target_date = date.getTime();
+    	//----------------------------------------
+ 
+		// variables for time units
+		var days, hours, minutes, seconds;
+		 
+		// get tag element
+		var countdown = document.getElementById("timer");
+
+		var cD = document.createTextNode(" days - ");
+	    var cH = document.createTextNode(" hours - ");
+	    var cM = document.createTextNode(" minutes - ");
+	    var cS = document.createTextNode(" seconds");
+		 
+		// update the tag with id "countdown" every 1 second
+		setInterval(function ()
+		{
+		    // find the amount of "seconds" between now and target
+		    var current_date = new Date().getTime();
+		    var seconds_left = (target_date - current_date) / 1000;
+		 
+		    // do some time calculations
+		    days = parseInt(seconds_left / 86400);
+		    seconds_left = seconds_left % 86400;
+		     
+		    hours = parseInt(seconds_left / 3600);
+		    seconds_left = seconds_left % 3600;
+		     
+		    minutes = parseInt(seconds_left / 60);
+		    seconds = parseInt(seconds_left % 60);
+		     
+		    // format countdown string + set tag value
+
+		    var cDiv = document.createElement('div');
+
+		    var cDays = document.createElement('span');
+		    var cHours = document.createElement('span');
+		    var cMinutes = document.createElement('span');
+		    var cSeconds = document.createElement('span');
+		    
+		    var cDaysText = document.createTextNode(days);
+		    var cHoursText = document.createTextNode(hours);
+		    var cMinutesText = document.createTextNode(minutes);
+		    var cSecondsText = document.createTextNode(seconds);
+
+		    cDays.appendChild(cDaysText);
+		    cHours.appendChild(cHoursText);
+		    cMinutes.appendChild(cMinutesText);
+		    cSeconds.appendChild(cSecondsText);
+		    
+		    cDiv.appendChild(cDays);
+		    cDiv.appendChild(cD);
+		    cDiv.appendChild(cHours);
+		    cDiv.appendChild(cH);
+		    cDiv.appendChild(cMinutes);
+		    cDiv.appendChild(cM);
+		    cDiv.appendChild(cSeconds);
+		    cDiv.appendChild(cS);
+
+		    countdown.replaceChild(cDiv, countdown.childNodes[0]);
+		    
+
+		    // countdown.innerHTML = days + "&nbspdays - " + hours + "&nbsphours - "
+		    // + minutes + "&nbspminutes - " + seconds + "&nbspseconds ";  
+		 
+		}, 1000);
+    }
 
     function initGoogleMap()
     {
