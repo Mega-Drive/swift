@@ -106,7 +106,7 @@ parallaxSlider.prototype={
 
 				/* Code to handle slide numbers */
 				var current_slide = $nextslide.find("div").data('order');
-				document.getElementById('asd').innerHTML = current_slide + " &nbspof &nbsp4";
+				document.getElementById('asd').innerHTML = current_slide + " &nbsp;of &nbsp;4";
 				/*==============================*/
 			})
 
