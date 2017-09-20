@@ -788,6 +788,11 @@
 		top: 10px;
 		right: 30px;
 	}
+	.pricing_item h1
+	{
+		font-size: 56px;
+		top: 17px;
+	}
 	#timer
 	{
 		font-size: 24px;
