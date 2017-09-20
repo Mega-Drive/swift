@@ -5,39 +5,16 @@
 
 [Table of Contents]
 
-1. 1600px
-2. 1280px
-3. 1199px
-4. 1024px
-5. 991px
-6. 959px
-7. 880px
-8. 768px
-9. 767px
-10. 639px
-11. 479px
-12. 400px
+1. 1199px
+2. 991px
+3. 767
+4. 479px
 
 ******************************/
 
 /************
-1. 1600px
+1. 1199px
 ************/
-
-@media only screen and (max-width: 1600px)
-{
-	
-}
-
-@media only screen and (max-width: 1439px)
-{
-	
-}
-
-@media only screen and (max-width: 1280px)
-{
-	
-}
 
 @media only screen and (max-width: 1199px)
 {
@@ -67,6 +44,10 @@
 		
 	}
 }
+
+/************
+2. 991px
+************/
 
 @media only screen and (max-width: 991px)
 {
@@ -122,6 +103,10 @@
 		margin-top: 0px;
 	}
 }
+
+/************
+3. 767px
+************/
 
 @media only screen and (max-width: 767px)
 {
@@ -357,15 +342,9 @@
 	}
 }
 
-@media only screen and (max-width: 690px)
-{
-	
-}
-
-@media only screen and (max-width: 639px)
-{
-	
-}
+/************
+4. 479px
+************/
 
 @media only screen and (max-width: 479px)
 {
