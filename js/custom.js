@@ -81,7 +81,7 @@ jQuery(document).ready(function($)
 			navbuttons: ['images/left.png', 'images/right.png', 'up.png', 'down.png'], // path to nav images
 			activeslideclass: 'selectedslide', // CSS class that gets added to currently shown DIV slide
 			orientation: 'h', //Valid values: "h" or "v"
-			persist: true, //remember last viewed slide and recall within same session?
+			persist: false, //remember last viewed slide and recall within same session?
 			slideduration: 1500 //transition duration (milliseconds)
 		});
 
