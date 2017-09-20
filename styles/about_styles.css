@@ -1,6 +1,48 @@
 @charset "utf-8";
 /* CSS Document */
 
+/******************************
+
+COLOR PALETTE
+
+#FFFFFF - BACKGROUND LIGHT
+#F7F7F7 - BACKGROUND "DARK"
+#313131 - TEXT COLOR DARK
+#717a85 - PARAGRAPH COLOR
+#00bcd5 - BLUE
+#db5246 - RED
+
+GRADIENTS
+
+#00bcd5 - #0dd1ec - HOME PANEL
+
+
+[Table of Contents]
+
+1. Fonts
+2. Body and some general stuff
+3. Home
+	3.1 Header
+	3.2 Home Navigation
+	3.3 Hamburger menu
+	3.4 Fullscreen Menu
+	3.5 Header
+	3.6 Logo
+	3.7 Home Content
+4. Section Title
+5. About
+6. Call to Action 1
+7. Team
+8. Stats
+9. Clients
+10. Newsletter
+11. Testimonials
+12. Contact
+13. Footer
+
+
+******************************/
+
 /***********
 1. Fonts
 ***********/
@@ -181,7 +223,7 @@ section
 }
 
 /*********************************
-Home
+3. Home
 *********************************/
 
 #home
@@ -406,33 +448,7 @@ Home
 }
 
 /*********************************
-Section Title
-*********************************/
-
-.section_title
-{
-	text-align: center;
-}
-.section_title h1
-{
-	font-family: 'Playfair Display', serif;
-	margin-top: 0px;
-}
-.section_title p
-{
-	margin-top: 2em;
-	margin-bottom: 0px;
-}
-.section_title p span
-{
-	text-transform: uppercase;
-	font-weight: 700;
-	padding-left: 2px;
-	padding-right: 2px;
-}
-
-/*********************************
-Header
+3.1 Header
 *********************************/
 
 .header
@@ -458,7 +474,7 @@ Header
 }
 
 /*********************************
-Home Navigation
+3.2 Home Navigation
 *********************************/
 
 .home_nav
@@ -553,7 +569,7 @@ Home Navigation
 }
 
 /*********************************
-Hamburger menu
+3.3 Hamburger menu
 *********************************/
 
 .hamburger_container_outer
@@ -625,7 +641,7 @@ Hamburger menu
 }
 
 /*********************************
-Fullscreen Menu
+3.4 Fullscreen Menu
 *********************************/
 
 .fs_menu_overlay
@@ -784,7 +800,7 @@ Fullscreen Menu
 }
 
 /*********************************
-Header
+3.5 Header
 *********************************/
 
 .header
@@ -810,7 +826,7 @@ Header
 }
 
 /*********************************
-Logo
+3.6 Logo
 *********************************/
 
 .logo_container
@@ -854,7 +870,7 @@ Logo
 }
 
 /*********************************
-Home Content
+3.7 Home Content
 *********************************/
 
 .home_content
@@ -901,7 +917,33 @@ Home Content
 }
 
 /*********************************
-About
+4. Section Title
+*********************************/
+
+.section_title
+{
+	text-align: center;
+}
+.section_title h1
+{
+	font-family: 'Playfair Display', serif;
+	margin-top: 0px;
+}
+.section_title p
+{
+	margin-top: 2em;
+	margin-bottom: 0px;
+}
+.section_title p span
+{
+	text-transform: uppercase;
+	font-weight: 700;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+/*********************************
+5. About
 *********************************/
 
 #about
@@ -960,7 +1002,7 @@ About
 }
 
 /*********************************
-Call to Action 1
+6. Call to Action 1
 *********************************/
 
 #call_to_action_1
@@ -1033,7 +1075,7 @@ Call to Action 1
 }
 
 /*********************************
-Team
+7. Team
 *********************************/
 
 #team
@@ -1244,7 +1286,7 @@ Team
 }
 
 /*********************************
-Stats
+8. Stats
 *********************************/
 
 #stats
@@ -1328,7 +1370,7 @@ Stats
 }
 
 /*********************************
-Clients
+9. Clients
 *********************************/
 
 #clients
@@ -1370,7 +1412,7 @@ Clients
 }
 
 /*********************************
-Newsletter
+10. Newsletter
 *********************************/
 
 #newsletter
@@ -1467,7 +1509,7 @@ Newsletter
 }
 
 /*********************************
-Testimonials
+11. Testimonials
 *********************************/
 
 #testimonials
@@ -1611,7 +1653,7 @@ Testimonials
 }
 
 /*********************************
-Contact
+12. Contact
 *********************************/
 
 #contact
@@ -1664,7 +1706,7 @@ Contact
 }
 
 /*********************************
-Footer
+13. Footer
 *********************************/
 
 #footer
