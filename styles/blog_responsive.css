@@ -1,6 +1,19 @@
 @charset "utf-8";
 /* CSS Document */
 
+/******************************
+
+[Table of Contents]
+
+1. 1600px
+2. 1200px
+3. 991px
+4. 767px
+5. 479px
+
+
+******************************/
+
 /************
 1. 1600px
 ************/
@@ -22,6 +35,10 @@
 	}
 }
 
+/************
+2. 1200px
+************/
+
 @media only screen and (max-width: 1200px)
 {
 	#home
@@ -41,6 +58,10 @@
 		display: block;
 	}
 }
+
+/************
+3. 991px
+************/
 
 @media only screen and (max-width: 991px)
 {
@@ -71,6 +92,10 @@
 		width: 50%;
 	}
 }
+
+/************
+4. 767px
+************/
 
 @media only screen and (max-width: 767px)
 {
@@ -144,6 +169,10 @@
 	}
 }
 
+/************
+5. 690px
+************/
+
 @media only screen and (max-width: 690px)
 {
 	.home_content h1
@@ -159,6 +188,10 @@
 		font-size: 16px;
 	}
 }
+
+/************
+6. 479px
+************/
 
 @media only screen and (max-width: 479px)
 {
