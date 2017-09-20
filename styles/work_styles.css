@@ -1,6 +1,38 @@
 @charset "utf-8";
 /* CSS Document */
 
+/******************************
+
+COLOR PALETTE
+
+#FFFFFF - BACKGROUND LIGHT
+#F7F7F7 - BACKGROUND "DARK"
+#313131 - TEXT COLOR DARK
+#717a85 - PARAGRAPH COLOR
+#00bcd5 - BLUE
+#db5246 - RED
+
+GRADIENTS
+
+#00bcd5 - #0dd1ec - HOME PANEL
+
+
+[Table of Contents]
+
+1. Fonts
+2. Body and some general stuff
+3. Header
+4. Logo
+5. Home Navigation
+6. Hamburger menu
+7. Fullscreen Menu
+8. Work
+9. Contact
+10. Footer
+
+
+******************************/
+
 /***********
 1. Fonts
 ***********/
@@ -179,7 +211,7 @@ section
 }
 
 /*********************************
-Header
+3. Header
 *********************************/
 
 .header
@@ -206,7 +238,7 @@ Header
 }
 
 /*********************************
-Logo
+4. Logo
 *********************************/
 
 .logo_container
@@ -476,7 +508,7 @@ Logo
 }
 
 /*********************************
-Home Navigation
+5. Home Navigation
 *********************************/
 
 .home_nav
@@ -571,7 +603,7 @@ Home Navigation
 }
 
 /*********************************
-Hamburger menu
+6. Hamburger menu
 *********************************/
 
 .hamburger_container_outer
@@ -643,7 +675,7 @@ Hamburger menu
 }
 
 /*********************************
-Fullscreen Menu
+7. Fullscreen Menu
 *********************************/
 
 .fs_menu_overlay
@@ -802,7 +834,7 @@ Fullscreen Menu
 }
 
 /*********************************
-Work
+8. Work
 *********************************/
 
 #work
@@ -949,7 +981,7 @@ Work
 }
 
 /*********************************
-Contact
+9. Contact
 *********************************/
 
 #contact
@@ -1002,7 +1034,7 @@ Contact
 }
 
 /*********************************
-Footer
+10. Footer
 *********************************/
 
 #footer
