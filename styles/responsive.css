@@ -386,7 +386,7 @@
 	{
 		width: 100%;
 		height: 600px;
-		background-image: url(../images/video_background.jpg);
+		background-image: url(http://via.placeholder.com/860x700);
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center center;
@@ -900,19 +900,19 @@
 	}
 	.slider_bg_1
 	{
-		background-image: url(../images/swift_background_1_m.jpg);
+		background-image: url(http://via.placeholder.com/600x960);
 	}
 	.slider_bg_2
 	{
-		background-image: url(../images/swift_background_2_m.jpg);
+		background-image: url(http://via.placeholder.com/600x960);
 	}
 	.slider_bg_3
 	{
-		background-image: url(../images/swift_background_3_m.jpg);
+		background-image: url(http://via.placeholder.com/600x960);
 	}
 	.slider_bg_4
 	{
-		background-image: url(../images/swift_background_4_m.jpg);
+		background-image: url(http://via.placeholder.com/600x960);
 	}
 	.slider_content
 	{
