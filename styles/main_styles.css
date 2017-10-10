@@ -1998,6 +1998,10 @@ Slider Content
 	border: solid 2px #FFFFFF;
 	margin-top: 12px;
 }
+.purchase_button a
+{
+	color: inherit;
+}
 .purchase_button:hover
 {
 	background: #FFFFFF;
