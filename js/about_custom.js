@@ -181,8 +181,8 @@ jQuery(document).ready(function($)
 		  onReady: function() { alert('ready!'); }
 		});
 
-		$('.call_to_action_1_background').parallax({imageSrc: 'images/swift_background_2.jpg'});
-		$('.contact_background').parallax({imageSrc: 'images/contact_background.jpg'});
+		$('.call_to_action_1_background').parallax({imageSrc: 'http://via.placeholder.com/1920x1080'});
+		$('.contact_background').parallax({imageSrc: 'http://via.placeholder.com/1920x1080'});
 	}
 
 	function initHero()
@@ -251,7 +251,7 @@ jQuery(document).ready(function($)
 					},
 					from: {color: '#00bcd5'},
 					to: {color: '#00bcd5'},
-					step: (state, bar) => {
+					step: function(state, bar) {
 					bar.setText(Math.round(bar.value() * 100) + ' %');
 					}
 	    		});

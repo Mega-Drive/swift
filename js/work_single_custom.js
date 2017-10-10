@@ -24,7 +24,6 @@ jQuery(document).ready(function($)
 
 	// initParallax();
 	initHamburger();
-	initLettering();
 	initGallery();
 
 	function setHeader()
@@ -145,74 +144,6 @@ jQuery(document).ready(function($)
 		var fsMenuTween4 = TweenMax.staggerTo(fsMenuItems, 0.8, {x:150, autoAlpha:0, ease:Power4.easeOut}, 0.06);
 		var fsSocOut = TweenMax.to(fsSocial, 0.5, {autoAlpha:0, ease:Power2.easeOut, delay:0.2});
 		hambActive = false;
-	}
-
-	function initLettering()
-	{
-		var links = $('.hvr');
-
-		links.each(function()
-		{
-			var ele = $(this);
-			charming(this);
-			var letters = Array.from(this.querySelectorAll('span'));
-			var isActive;
-		    var eleTimeout;
-		    var hoverColor = ele.data('color-enter');
-		    var defaultColor = ele.data('color-leave');
-
-			ele.on('mouseenter', function()
-			{
-				eleTimeout = setTimeout(function()
-				{
-					isActive = true;
-					anime.remove(letters);
-					anime({
-						targets: letters,
-						delay: (t,i) => i*5,
-						translateY: [
-							{value: 5, duration: 150, easing: 'easeInQuad'},
-							{value: [-5,0], duration: 150, easing: 'easeOutQuad'}
-						],
-						opacity: [
-							{value: 0, duration: 150, easing: 'linear'},
-							{value: 1, duration: 150, easing: 'linear'}
-						],
-						color: {
-							value: hoverColor,
-							duration: 1,
-							delay: (t,i,l) => i*15+150
-						}
-					});
-				}, 50);	
-			});
-
-			ele.on('mouseleave', function()
-			{
-				clearTimeout(eleTimeout);
-				if( !isActive ) return;
-				isActive = false;
-
-				anime.remove(letters);
-				anime({
-					targets: letters,
-					delay: (t,i,l) => (l-i-1)*5,
-					translateY: [
-						{value: 5, duration: 150, easing: 'easeInQuad'},
-						{value: [-5,0], duration: 150, easing: 'easeOutQuad'}
-					],
-					opacity: [
-						{value: 0, duration: 150, easing: 'linear'},
-						{value: 1, duration: 150, easing: 'linear'}
-					],
-					color: {
-						value: defaultColor,
-						duration: 1,
-						delay: (t,i,l) => (l-i-1)*15+150
-					}
-				});
-			});
-		});
 	}
 
 	function initGallery()
