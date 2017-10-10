@@ -181,8 +181,8 @@ jQuery(document).ready(function($)
 		  onReady: function() { alert('ready!'); }
 		});
 
-		$('.call_to_action_1_background').parallax({imageSrc: 'http://via.placeholder.com/1920x1080'});
-		$('.contact_background').parallax({imageSrc: 'http://via.placeholder.com/1920x1080'});
+		$('.call_to_action_1_background').parallax({imageSrc: 'images/swift_background_2.jpg'});
+		$('.contact_background').parallax({imageSrc: 'images/contact_background.jpg'});
 	}
 
 	function initHero()

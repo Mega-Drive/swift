@@ -150,7 +150,7 @@ jQuery(document).ready(function($)
 		  onReady: function() { alert('ready!'); }
 		});
 
-		$('.contact_background').parallax({imageSrc: 'http://via.placeholder.com/1920x1080'});
+		$('.contact_background').parallax({imageSrc: 'images/swift_background_2.jpg'});
 	}
 
 	function initHero()

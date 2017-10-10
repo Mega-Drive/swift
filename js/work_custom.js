@@ -65,7 +65,7 @@ jQuery(document).ready(function($)
 
 	function initParallax()
 	{
-		$('.contact_background').parallax({imageSrc: 'http://via.placeholder.com/1920x1080'});
+		$('.contact_background').parallax({imageSrc: 'images/contact_background.jpg'});
 	}
 
 	function initHamburger()
