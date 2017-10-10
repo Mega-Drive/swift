@@ -971,7 +971,7 @@ section
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-	background-image: url(http://via.placeholder.com/1920x750);
+	background-image: url(../images/contact_form_background.png);
 }
 .contact_text
 {
