@@ -192,36 +192,36 @@ jQuery(document).ready(function($)
     	var emailFocus = $('.email_focus');
 
     	/* hide placeholder text on focus and show it again on lost focus */
-    	name.focus(function()
+    	name.on('focus', function()
 		{
 			name.attr("placeholder", "");
 			nameFocus.css({'visibility':"visible", 'opacity':"1"});
 		});
 
-		name.blur(function()
+		name.on('blur', function()
 		{
 			name.attr("placeholder", "Name");
 			nameFocus.css({'visibility':"hidden", 'opacity':"0"});
 		});
 
-		email.focus(function()
+		email.on('focus', function()
 		{
 			email.attr("placeholder", "");
 			emailFocus.css({'visibility':"visible", 'opacity':"1"});
 		});
 
-		email.blur(function()
+		email.on('blur', function()
 		{
 			email.attr("placeholder", "Email");
 			emailFocus.css({'visibility':"hidden", 'opacity':"0"});
 		});
 
-		message.focus(function()
+		message.on('focus', function()
 		{
 			message.attr("placeholder", "");
 		});
 
-		message.blur(function()
+		message.on('blur', function()
 		{
 			message.attr("placeholder", "Your Message");
 		});
