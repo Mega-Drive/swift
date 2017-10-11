@@ -15,7 +15,7 @@ jQuery(document).ready(function($)
 	initHero();
 	initSubmit();
 
-	$(window).resize(function()
+	$(window).on('resize', function()
 	{
 		setHeader();
 	});

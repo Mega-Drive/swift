@@ -11,7 +11,7 @@ jQuery(document).ready(function($)
 
 	setHeader();
 	
-	$(window).resize(function()
+	$(window).on('resize', function()
 	{
 		setHeader();
 		initParallax();

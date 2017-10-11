@@ -11,10 +11,9 @@ jQuery(document).ready(function($)
 
 	setHeader();
 
-	$(window).resize(function()
+	$(window).on('resize', function()
 	{
 		setHeader();
-		// initParallax();
 	});
 
 	$(document).on('scroll', function()
@@ -22,7 +21,6 @@ jQuery(document).ready(function($)
 		setHeader();
 	});
 
-	// initParallax();
 	initHamburger();
 	initGallery();
 

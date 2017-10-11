@@ -14,7 +14,7 @@ jQuery(document).ready(function($)
 	initParallax();
 	initHero();
 
-	$(window).resize(function()
+	$(window).on('resize', function()
 	{
 		setHeader();
 	});
